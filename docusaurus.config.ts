@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'My Agenda',
   tagline: 'Every Leader has an Agenda',
-  favicon: 'img/leadership-global-leader-world-leader-business-leader',
+  favicon: 'img/leadership-global-leader-world-leader-business-leader.svg',
 
   // Set the production url of your site here
   url: 'https://agenda.lkmail.me',
@@ -260,7 +260,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'docs2Sidebar',
           position: 'left',
-          label: 'Connaissances Pratiques',
+          label: 'Connaissances Pratiques2',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/blog2', label: 'blog2', position: 'left'},
