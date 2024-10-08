@@ -3,20 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Agenda',
-  tagline: 'Every Leader has an Agenda',
-  favicon: 'img/leadership-global-leader-world-leader-business-leader.svg',
+  title: 'My Site',
+  tagline: 'Dinosaurs are cool',
+  favicon: 'img/leadership-dark.svg',
 
   // Set the production url of your site here
-  url: 'https://agenda.lkmail.me',
+  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Dustcloudman', // Usually your GitHub org/user name.
-  projectName: 'agenda', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'fr',
-    locales: ['fr'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -38,7 +38,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://coder.lkmail.me/?folder=/home/ubuntu/dustcloudman',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -49,7 +49,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://coder.lkmail.me/?folder=/home/ubuntu/dustcloudman',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -62,213 +62,26 @@ const config: Config = {
     ],
   ],
 
-    plugins: [
-      [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'blog2',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'blog2',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './blog2',
-        },
-      ],
-
-
-      [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'blog3',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'blog3',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './blog3',
-        },
-      ],
-
-      [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'blog4',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'blog4',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './blog4',
-        },
-      ],
-
-      [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'blog5',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'blog5',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './blog5',
-        },
-      ],
-
-      [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'blog6',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'blog6',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './blog6',
-        },
-      ],
-
-      [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'blog7',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'blog7',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './blog7',
-        },
-      ],
-
-      [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'blog8',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'blog8',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './blog8',
-        },
-      ],
-
-      [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'blog9',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'blog9',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './blog9',
-        },
-      ],
-
-      [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'blog10',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'blog10',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './blog10',
-        },
-      ],
-
-
-    ],
-  
-
-
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/leadership-dark.svg',
     navbar: {
-      title: 'My Agenda',
+      title: 'My Site',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/leadership-blue-yellow.svg',
+        src: 'img/leadership-dark.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'docsSidebar',
+          sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Connaissances Pratiques',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'docs2Sidebar',
-          position: 'left',
-          label: 'Connaissances Pratiques2',
+          label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/blog2', label: 'blog2', position: 'left'},
-        {to: '/blog3', label: 'blog3', position: 'left'},
-        {to: '/blog4', label: 'blog4', position: 'left'},
         {
-          href: 'https://coder.lkmail.me/?folder=/home/ubuntu/dustcloudman',
-          label: 'Code Server',
+          href: 'https://github.com/facebook/docusaurus',
+          label: 'GitHub',
           position: 'right',
         },
       ],
@@ -286,19 +99,19 @@ const config: Config = {
           ],
         },
         {
-          title: 'Ressources',
+          title: 'Community',
           items: [
             {
-              label: 'Preview',
-              href: 'https://preview.lkmail.me',
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'SSH',
-              href: 'https://ssh.lkmail.me',
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
             },
             {
-              label: 'VS Studio in Browser',
-              href: 'https://coder.lkmail.me/?folder=/home/ubuntu/dustcloudman',
+              label: 'X',
+              href: 'https://x.com/docusaurus',
             },
           ],
         },
@@ -310,13 +123,13 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'Docusaurus source code',
+              label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Agenda, Inc. Built by Lionel.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
