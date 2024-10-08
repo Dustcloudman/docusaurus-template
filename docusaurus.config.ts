@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'My Agenda',
-  tagline: 'My Agenda is Cool',
-  favicon: 'img/favicon.ico',
+  tagline: 'Every Leader has an Agenda',
+  favicon: 'img/leadership-global-leader-world-leader-business-leader',
 
   // Set the production url of your site here
   url: 'https://agenda.lkmail.me',
@@ -38,7 +38,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://coder.lkmail.me/?folder=/home/ubuntu/dustcloudman',
         },
         blog: {
           showReadingTime: true,
@@ -49,7 +49,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://coder.lkmail.me/?folder=/home/ubuntu/dustcloudman',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -62,26 +62,213 @@ const config: Config = {
     ],
   ],
 
+    plugins: [
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * Required for any multi-instance plugin
+           */
+          id: 'blog2',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'blog2',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './blog2',
+        },
+      ],
+
+
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * Required for any multi-instance plugin
+           */
+          id: 'blog3',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'blog3',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './blog3',
+        },
+      ],
+
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * Required for any multi-instance plugin
+           */
+          id: 'blog4',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'blog4',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './blog4',
+        },
+      ],
+
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * Required for any multi-instance plugin
+           */
+          id: 'blog5',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'blog5',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './blog5',
+        },
+      ],
+
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * Required for any multi-instance plugin
+           */
+          id: 'blog6',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'blog6',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './blog6',
+        },
+      ],
+
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * Required for any multi-instance plugin
+           */
+          id: 'blog7',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'blog7',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './blog7',
+        },
+      ],
+
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * Required for any multi-instance plugin
+           */
+          id: 'blog8',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'blog8',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './blog8',
+        },
+      ],
+
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * Required for any multi-instance plugin
+           */
+          id: 'blog9',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'blog9',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './blog9',
+        },
+      ],
+
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          /**
+           * Required for any multi-instance plugin
+           */
+          id: 'blog10',
+          /**
+           * URL route for the blog section of your site.
+           * *DO NOT* include a trailing slash.
+           */
+          routeBasePath: 'blog10',
+          /**
+           * Path to data on filesystem relative to site dir.
+           */
+          path: './blog10',
+        },
+      ],
+
+
+    ],
+  
+
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'My Agenda',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/leadership-blue-yellow.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Connaissances Pratiques',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'docs2Sidebar',
+          position: 'left',
+          label: 'Connaissances Pratiques',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog2', label: 'blog2', position: 'left'},
+        {to: '/blog3', label: 'blog3', position: 'left'},
+        {to: '/blog4', label: 'blog4', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://coder.lkmail.me/?folder=/home/ubuntu/dustcloudman',
+          label: 'Code Server',
           position: 'right',
         },
       ],
@@ -99,19 +286,19 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Ressources',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Preview',
+              href: 'https://preview.lkmail.me',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'SSH',
+              href: 'https://ssh.lkmail.me',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'VS Studio in Browser',
+              href: 'https://coder.lkmail.me/?folder=/home/ubuntu/dustcloudman',
             },
           ],
         },
@@ -123,13 +310,13 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
+              label: 'Docusaurus source code',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Agenda, Inc. Built by Lionel.`,
     },
     prism: {
       theme: prismThemes.github,
