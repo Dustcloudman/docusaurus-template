@@ -52,14 +52,14 @@ const sidebars: SidebarsConfig = {
                 'subdocs/subdocs2/subsdocs3/third',                        // same with slug
               ],                                                               // closing bracket
             },                                                                // closing category from doc links
-            'guides/docs/versioning',                                                    // one more doc from it's  docs/guides/docs/versioning.mdx
-            'guides/docs/multi-instance',                                               // same
+            'subdocs/subdocs2/developpement',                                                    // one more doc from it's  docs/guides/docs/versioning.mdx
+            'subdocs/subdocs2/conclusion',                                               // same
           ],                                                               // Closing the item
         },                                                                //  Closing the subdoc
-        'blog',
+        'cfo',                     // new category start
         {
           type: 'category',
-          label: 'Markdown Features',
+          label: 'Markdo',
           link: {
             type: 'doc',                                          //  Doc: link to a doc page, associating it with the sidebar
             id: 'guides/markdown-features/introduction',
