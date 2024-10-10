@@ -1,27 +1,27 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  digital: [                        // digital is the name of the sidebar
-    'introduction',                 // this is the first .mdx on top
-    {                                 // open bracket to create a category to regroup some .mdx docs inside it
+  digital: [                                     // digital is the name of the sidebar
+    'introduction',                             // this is the first .mdx on top
+    {                                          // open bracket to create a category to regroup some .mdx docs inside it
       type: 'category',
       label: 'Category 1',
       link: {
         type: 'generated-index',
       },
-      collapsed: true,                    // this is to mark that the category is collapsed when accessing the sidebar
-      items: [
-        'doc1',                           //item in order inside the /docs directory
+      collapsed: true,                         // this is to mark that the category is collapsed when accessing the sidebar
+      items: [                                //item looks like it is like link to internal document, in here it is at root of /docs
+        'doc1',                                
         'doc2',
         'doc3',
         'doc4',
       ],
     },
     {
-      type: 'category',                     // Category: creates a dropdown of sidebar items
-      label: 'Category 2',                      // label of this category
-      link: {
-        type: 'generated-index',                // Docusaurus can create a sidebar automatically from your filesystem structure: each folder creates a sidebar category, and each file creates a doc link.
+      type: 'category',                                 // Category: creates a dropdown of sidebar items
+      label: 'Category 2',                             // label of this category
+      link: {                                         // Link: link to any internal or external page
+        type: 'generated-index',                     // Docusaurus can create a sidebar automatically from your filesystem structure: each folder creates a sidebar category, and each file creates a doc link.
         title: 'Label2 H1',
         description:
           "Let's go to label 2",
