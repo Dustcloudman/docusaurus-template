@@ -56,16 +56,16 @@ const sidebars: SidebarsConfig = {
             'docs3/docs3-2/doc3-2-4',                                               // same
           ],                                                               // Closing the item
         },                                                                //  Closing the subdoc
-        'cfo',                     // link to docs/cfo.mdx - most simple thing to do inside the current sidebar
+        'docs3/doc3-4',                     // link to docs/docs3/doc3-4.mdx - most simple thing to do inside the current sidebar
         {
           type: 'category',                                                       // New nested - subdocs - subdocs3
-          label: 'Category 3',
+          label: 'Docs3-5',
           link: {
             type: 'doc',                                          //  Doc: link to a doc page, associating it with the sidebar
-            id: 'subdocs/subdocs3/introduction',                         // path to introduction subdocs3 using path and ID at the end of the path
+            id: 'docs3/doc35',                         // path to introduction subdocs3 using path and ID at the end of the path
           },
           items: [                                                         // multipurpose items: SidebarCategoriesShorthand | SidebarItemConfig[]
-            'subdocs/subdocs3/doc1',                              // link to doc to be added to the nested category 3 from subdocs/subdocs3/ID
+            'docs3/docs3-5/doc3-5-1',                              // link to doc to be added to the nested category 3 from subdocs/subdocs3/ID
             'subdocs/subdocs3/doc2',
             'subdocs/subdocs3/doc3',
             'subdocs/subdocs3/doc4',
