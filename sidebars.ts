@@ -62,10 +62,9 @@ const sidebars: SidebarsConfig = {
           label: 'Docs3-4',
           link: {
             type: 'doc',                                          //  Doc: link to a doc page, associating it with the sidebar
-            id: 'docs3/doc3-4',                         // path to introduction subdocs3 using path and ID at the end of the path
+            id: 'docs3/docs3-4/doc3-4-1',                         // path to introduction subdocs3 using path and ID at the end of the path
           },
           items: [                                                         // multipurpose items: SidebarCategoriesShorthand | SidebarItemConfig[]
-            'docs3/docs3-4/doc3-4-1',                              // link to doc to be added to the nested category 3 from subdocs/subdocs3/ID
             'docs3/docs3-4/doc3-4-2',
             'docs3/docs3-4/doc3-4-3',
             'docs3/docs3-4/doc3-4-4',
