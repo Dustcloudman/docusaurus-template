@@ -1,0 +1,5 @@
+label: Doc 5
+position: 2
+link:
+  type: doc
+  id: sidebar2/docs3/docs5/doc5f # Dogfood using a "qualified id"
