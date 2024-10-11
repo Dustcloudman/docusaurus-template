@@ -2,7 +2,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
   sidebar1: [                                     // sidebar1 is the name of the sidebar
-    'docs1/1',                             // Shorthand syntax:this is an ID - no slash in ID
+    'docs1/doc1',                             // Shorthand syntax:this is an ID - no slash in ID
     {                                // open bracket to create a category to regroup some .mdx docs inside it
       type: 'category',
       label: 'Docs2',
@@ -44,7 +44,7 @@ const sidebars: SidebarsConfig = {
               label: 'Docs3-2-2',                                           // first the label of the sidebar
               link: {                                                    // we have a link in here open bracket
                 type: 'doc',                                            // they say it's doc type
-                id: 'docs3/doc3-2-2',                       // index page for the category in a .mdx doc file (instead of .json)
+                id: 'docs3/docs3-2/doc3-2-2',                       // index page for the category in a .mdx doc file (instead of .json)
               },                                                      // end of category specs
               items: [                                                             // one more nested item found using path
                 'docs3/docs3-2/docs3-2-2/doc3-2-2-1',                                      // same with slug
@@ -65,17 +65,17 @@ const sidebars: SidebarsConfig = {
             id: 'docs3/doc3-4',                         // path to introduction subdocs3 using path and ID at the end of the path
           },
           items: [                                                         // multipurpose items: SidebarCategoriesShorthand | SidebarItemConfig[]
-            'docs3/docs3-5/doc3-4-1',                              // link to doc to be added to the nested category 3 from subdocs/subdocs3/ID
-            'docs3/docs3-5/doc3-4-2',
-            'docs3/docs3-5/doc3-4-3',
-            'docs3/docs3-5/doc3-4-4',
-            'docs3/docs3-5/doc3-4-5',
-            'docs3/docs3-5/doc3-4-6',
-            'docs3/docs3-5/doc3-4-7',
-            'docs3/docs3-5/doc3-4-8',
-            'docs3/docs3-5/doc3-4-9',
-            'docs3/docs3-5/doc3-4-10',
-            'docs3/docs3-5/doc3-4-11',
+            'docs3/docs3-4/doc3-4-1',                              // link to doc to be added to the nested category 3 from subdocs/subdocs3/ID
+            'docs3/docs3-4/doc3-4-2',
+            'docs3/docs3-4/doc3-4-3',
+            'docs3/docs3-4/doc3-4-4',
+            'docs3/docs3-4/doc3-4-5',
+            'docs3/docs3-4/doc3-4-6',
+            'docs3/docs3-4/doc3-4-7',
+            'docs3/docs3-4/doc3-4-8',
+            'docs3/docs3-4/doc3-4-9',
+            'docs3/docs3-4/doc3-4-10',
+            'docs3/docs3-4/doc3-4-11',
           ],
         },
         'docs3/doc3-1',
@@ -120,12 +120,12 @@ const sidebars: SidebarsConfig = {
       label: 'Doc 4',
       link: {type: 'doc', id: 'docs4/doc4'},
       items: [
-        'docs4/docs4-1',
-        'docs4/docs4-2',
-        'docs4/docs4-3',
-        'docs4/docs4-4',
-        'docs4/docs4-5',
-        'docs4/docs4-6',
+        'docs4/doc4-1',
+        'docs4/doc4-2',
+        'docs4/doc4-3',
+        'docs4/doc4-4',
+        'docs4/doc4-5',
+        'docs4/doc4-6',
       ],
     },
     {
@@ -133,7 +133,7 @@ const sidebars: SidebarsConfig = {
       label: 'Doc 5',
       link: {
         type: 'doc',
-        id: 'sb1d5',
+        id: 'docs5/doc5',
       },
       items: [
         'docs5/doc5-1',
