@@ -56,26 +56,26 @@ const sidebars: SidebarsConfig = {
             'docs3/docs3-2/doc3-2-4',                                               // same
           ],                                                               // Closing the item
         },                                                                //  Closing the subdoc
-        'docs3/doc3-4',                     // link to docs/docs3/doc3-4.mdx - most simple thing to do inside the current sidebar
+        'docs3/doc3-3',                     // link to docs/docs3/doc3-4.mdx - most simple thing to do inside the current sidebar
         {
           type: 'category',                                                       // New nested - subdocs - subdocs3
-          label: 'Docs3-5',
+          label: 'Docs3-4',
           link: {
             type: 'doc',                                          //  Doc: link to a doc page, associating it with the sidebar
-            id: 'docs3/doc35',                         // path to introduction subdocs3 using path and ID at the end of the path
+            id: 'docs3/doc34',                         // path to introduction subdocs3 using path and ID at the end of the path
           },
           items: [                                                         // multipurpose items: SidebarCategoriesShorthand | SidebarItemConfig[]
-            'docs3/docs3-5/doc3-5-1',                              // link to doc to be added to the nested category 3 from subdocs/subdocs3/ID
-            'subdocs/subdocs3/doc2',
-            'subdocs/subdocs3/doc3',
-            'subdocs/subdocs3/doc4',
-            'subdocs/subdocs3/doc5',
-            'subdocs/subdocs3/doc6',
-            'subdocs/subdocs3/doc7',
-            'subdocs/subdocs3/doc8',
-            'subdocs/subdocs3/doc9',
-            'subdocs/subdocs3/doc10',
-            'subdocs/subdocs3/doc11',
+            'docs3/docs3-5/doc3-4-1',                              // link to doc to be added to the nested category 3 from subdocs/subdocs3/ID
+            'docs3/docs3-5/doc3-4-2',
+            'docs3/docs3-5/doc3-4-3',
+            'docs3/docs3-5/doc3-4-4',
+            'docs3/docs3-5/doc3-4-5',
+            'docs3/docs3-5/doc3-4-6',
+            'docs3/docs3-5/doc3-4-7',
+            'docs3/docs3-5/doc3-4-8',
+            'docs3/docs3-5/doc3-4-9',
+            'docs3/docs3-5/doc3-4-10',
+            'docs3/docs3-5/doc3-4-11',
           ],
         },
         'styling-layout',
