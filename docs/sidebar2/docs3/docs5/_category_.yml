@@ -2,4 +2,4 @@ label: Doc 5
 position: 2
 link:
   type: doc
-  id: sb2doc5f # Dogfood using a "qualified id"
+  id: doc5 # Dogfood using a "qualified id"
