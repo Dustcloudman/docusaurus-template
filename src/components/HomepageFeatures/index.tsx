@@ -10,7 +10,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Leader de Classe Mondiale',
+    title: 'Made by the best international spying private corporation',
     Svg: require('@site/static/img/leadership-global-leader-world-leader-business-leader.svg').default,
     description: (
       <>
@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Le Chef de Famille',
+    title: 'After 40 hours of theory and 6 month of practice you will be all set',
     Svg: require('@site/static/img/leadership-dark.svg').default,
     description: (
       <>
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'On l appel USDlion',
+    title: 'Well done and good value for your time for sure',
     Svg: require('@site/static/img/leadership-black-blue.svg').default,
     description: (
       <>
