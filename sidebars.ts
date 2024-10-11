@@ -44,7 +44,7 @@ const sidebars: SidebarsConfig = {
               label: 'Docs3-2-2',                                           // first the label of the sidebar
               link: {                                                    // we have a link in here open bracket
                 type: 'doc',                                            // they say it's doc type
-                id: 'docs3-2-2',                       // index page for the category in a .mdx doc file (instead of .json)
+                id: 'docs3/doc3-2-2',                       // index page for the category in a .mdx doc file (instead of .json)
               },                                                      // end of category specs
               items: [                                                             // one more nested item found using path
                 'docs3/docs3-2/docs3-2-2/doc3-2-2-1',                                      // same with slug
