@@ -120,27 +120,26 @@ const sidebars: SidebarsConfig = {
       label: 'Doc 4',
       link: {type: 'doc', id: 'docs4/doc4'},
       items: [
-        'advanced/architecture',
-        'advanced/plugins',
-        'advanced/routing',
-        'advanced/ssg',
-        'advanced/client',
+        'docs4/docs4-1',
+        'docs4/docs4-2',
+        'docs4/docs4-3',
+        'docs4/docs4-4',
+        'docs4/docs4-5',
+        'docs4/docs4-6',
       ],
     },
     {
       type: 'category',
-      label: 'Upgrading',
+      label: 'Doc 5',
       link: {
         type: 'doc',
-        id: 'migration/index',
+        id: 'docs5/doc5',
       },
       items: [
-        'migration/v3',
-        // TODO do we want to keep upgrade docs for older Docusaurus versions?
-        // It contains links to docs of current version :/
+        'docs5/doc5-1',
         {
           type: 'category',
-          label: 'To Docusaurus v2',
+          label: 'Doc 5-2',
           items: [
             'migration/v2/migration-overview',
             'migration/v2/migration-automated',
