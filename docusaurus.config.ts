@@ -66,7 +66,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/leadership-dark.svg',
     navbar: {
-      title: 'My Site',
+      title: 'Docusaurus custom template',
       logo: {
         alt: 'My Site Logo',
         src: 'img/leadership-dark.svg',
