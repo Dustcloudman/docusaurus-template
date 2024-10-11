@@ -1,0 +1,5 @@
+label: Doc 6
+position: 3
+link:
+  type: doc
+  id: doc6f # Dogfood using a "local id"
