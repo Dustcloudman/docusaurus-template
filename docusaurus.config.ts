@@ -74,21 +74,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'sidebar1',
+          sidebarId: 'sidebar01',
           position: 'left',
-          label: 'SideBar 1',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'sidebar2',
-          position: 'left',
-          label: 'SideBar 2',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'sidebar3',
-          position: 'left',
-          label: 'SideBar 3',
+          label: 'SideBar 01',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -101,15 +89,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Sidebar1',
-              to: '/docs/docs1/doc1',
-            },
-          ],
-        },
         {
           title: 'Community',
           items: [
