@@ -61,6 +61,25 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+    // ...
+    plugins: [
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          id: 'blog02',
+          routeBasePath: 'blog02',
+          path: './blog02',
+        },
+      ],
+      [
+        '@docusaurus/plugin-content-blog',
+        {
+          id: 'blog03',
+          routeBasePath: 'blog03',
+          path: './blog03',
+        },
+      ],
+    ],
 
   themeConfig: {
     // Replace with your project's social card
@@ -84,10 +103,18 @@ const config: Config = {
           position: 'left',
           label: 'Sidebar 02',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          type: 'docSidebar',
+          sidebarId: 'sidebar03',
+          position: 'left',
+          label: 'Sidebar 03',
+        },
+        {to: '/blog', label: 'Blog', position: 'right'},
+        {to: '/blog02', label: 'Blog02', position: 'right'},
+        {to: '/blog03', label: 'Blog03', position: 'right'},
+        {
+          href: 'https://kaufmann-firewall.cloudflareaccess.com/cdn-cgi/access/logout',
+          label: 'Logout',
           position: 'right',
         },
       ],
@@ -96,19 +123,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Community',
+          title: 'Ressources',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Docusaurus official website',
+              href: 'https://docusaurus.io',
             },
           ],
         },
@@ -118,10 +137,6 @@ const config: Config = {
             {
               label: 'Blog',
               to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
