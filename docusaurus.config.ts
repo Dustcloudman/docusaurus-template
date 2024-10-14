@@ -135,8 +135,16 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'Blog01',
               to: '/blog',
+            },
+            {
+              label: 'Blog02 (exemple)',
+              to: '/blog02',
+            },
+            {
+              label: 'Blog03 (exemple)',
+              to: '/blog03',
             },
           ],
         },
