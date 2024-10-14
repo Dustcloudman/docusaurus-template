@@ -129,7 +129,12 @@ const config: Config = {
               label: 'Docusaurus official website',
               href: 'https://docusaurus.io',
             },
-          ],
+
+              {
+                label: 'Contact',
+                href: 'https://lkmail.me',
+              },
+            ],
         },
         {
           title: 'Blogs',
@@ -156,11 +161,11 @@ const config: Config = {
               to: '/docs/sidebar01/category01',
             },
             {
-              label: 'Sidebar02',
+              label: 'Sidebar02 (exemple)',
               to: '/docs/sidebar02',
             },
             {
-              label: 'Sidebar03',
+              label: 'Sidebar03 (exemple)',
               to: '/docs/sidebar03',
             },
           ],
