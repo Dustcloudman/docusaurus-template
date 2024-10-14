@@ -1,1 +1,64 @@
-# Docusaurus quick start template fod dummies
+---
+title: Optimiser Docusaurus pour le SEO
+description: Apprenez comment configurer et optimiser votre site Docusaurus pour améliorer son référencement naturel (SEO) en suivant ces bonnes pratiques.
+keywords: [Docusaurus, SEO, Référencement naturel, Optimisation, Performance]
+authors: [lionel]
+date: 2024-10-15
+---
+
+# Comment optimiser Docusaurus pour le SEO
+
+Dans cet article, vous découvrirez les meilleures pratiques pour optimiser votre site Docusaurus et améliorer son référencement naturel sur les moteurs de recherche comme Google.
+
+## Pourquoi le SEO est important
+
+:::tip
+Le SEO (Search Engine Optimization) est crucial pour rendre votre site visible et attirer plus de visiteurs.
+:::
+
+### Pratiques de base pour le SEO
+
+1. **Titres et balises meta** : Assurez-vous d'utiliser des titres pertinents et des balises meta pour chaque page de votre site. Utilisez des mots-clés liés à votre contenu pour améliorer le classement dans les moteurs de recherche.
+
+2. **URLs lisibles** : Vos URLs doivent être claires et faciles à comprendre. Par exemple, utilisez `/blog/optimiser-seo-docusaurus` plutôt que des URLs générées automatiquement avec des identifiants.
+
+3. **Vitesse du site** : Optimisez les performances de votre site. Docusaurus étant un site statique, il est déjà rapide par défaut, mais vous pouvez encore l'améliorer en compressant les images et en utilisant des services comme Cloudflare pour un meilleur CDN.
+
+### Optimisation des images et du contenu
+
+- **Texte alternatif pour les images** : N'oubliez pas d'ajouter des descriptions alternatives (alt text) à toutes vos images. Cela permet aux moteurs de recherche de mieux comprendre le contenu visuel et aide également à l'accessibilité.
+
+- **Contenu de qualité** : Publiez régulièrement des articles de qualité avec des informations utiles et pertinentes pour vos utilisateurs. Plus votre contenu répond à des requêtes spécifiques, mieux il sera classé.
+
+## Utilisation de plugins SEO avec Docusaurus
+
+Docusaurus offre des plugins pour améliorer le SEO de votre site. Par exemple, vous pouvez utiliser le plugin `@docusaurus/plugin-content-blog` pour optimiser les articles de blog en ajoutant des balises meta personnalisées, des descriptions et des images pour chaque post.
+
+### Exemple de configuration SEO dans Docusaurus
+
+```javascript
+module.exports = {
+  title: 'Mon Site Docusaurus',
+  url: 'https://monsite.com',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
+  organizationName: 'nom-organisation',
+  projectName: 'nom-projet',
+  themeConfig: {
+    metadata: [{ name: 'keywords', content: 'Docusaurus, SEO, Référencement naturel, Blog' }],
+    image: 'img/seo-optimisation.png',
+    navbar: {
+      title: 'Mon Site',
+      logo: {
+        alt: 'Logo SEO',
+        src: 'img/logo.svg',
+      },
+      items: [
+        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/docs', label: 'Docs', position: 'left' },
+      ],
+    },
+  },
+};
