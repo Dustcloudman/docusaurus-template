@@ -109,7 +109,7 @@ const config: Config = {
           position: 'left',
           label: 'Sidebar 03',
         },
-        {to: '/blog', label: 'Blog', position: 'right'},
+        {to: '/blog', label: 'Blog01', position: 'right'},
         {to: '/blog02', label: 'Blog02', position: 'right'},
         {to: '/blog03', label: 'Blog03', position: 'right'},
         {
@@ -132,7 +132,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Blogs',
           items: [
             {
               label: 'Blog01',
@@ -145,6 +145,23 @@ const config: Config = {
             {
               label: 'Blog03 (exemple)',
               to: '/blog03',
+            },
+          ],
+        },
+        {
+          title: 'Documentation',
+          items: [
+            {
+              label: 'Sidebar01',
+              to: '/docs/sidebar01/category01',
+            },
+            {
+              label: 'Sidebar02',
+              to: '/docs/sidebar02',
+            },
+            {
+              label: 'Sidebar03',
+              to: '/docs/sidebar03',
             },
           ],
         },
