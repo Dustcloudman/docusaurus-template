@@ -1,64 +1,69 @@
----
-title: Optimiser Docusaurus pour le SEO
-description: Apprenez comment configurer et optimiser votre site Docusaurus pour améliorer son référencement naturel (SEO) en suivant ces bonnes pratiques.
-keywords: [Docusaurus, SEO, Référencement naturel, Optimisation, Performance]
-authors: [lionel]
-date: 2024-10-15
----
 
-# Comment optimiser Docusaurus pour le SEO
+# Docusaurus Template with TypeScript, Multi-Blog, and Auto-Generated Sidebars categores
 
-Dans cet article, vous découvrirez les meilleures pratiques pour optimiser votre site Docusaurus et améliorer son référencement naturel sur les moteurs de recherche comme Google.
+Welcome to this open-source Docusaurus template! This project is designed for hobbyists and developers looking to use the open-source Docusaurus framework, with a focus on simplicity and best practices. I've built this template on top of the example Docusaurus website and added several features to enhance usability and structure.
 
-## Pourquoi le SEO est important
+## Features
 
-:::tip
-Le SEO (Search Engine Optimization) est crucial pour rendre votre site visible et attirer plus de visiteurs.
-:::
+- **TypeScript**: This project is fully implemented using TypeScript, offering better type safety and IntelliSense.
+- **Multi-Blog Support**: Easily manage multiple blogs within the same site.
+- **Multi-Sidebars**: Use multiple sidebars to keep content well-organized.
+- **SidebarConfig with Auto-Generated Sidebars**: Simplifies the process of managing sidebars by automating their creation.
+- **Nested Categories in Sidebars**: Provides an example of a sidebar with nested categories to structure complex documentation.
+- **Renamed Directories**: Directory structure has been renamed for easier understanding and navigation.
+- **Documented Configuration**: Added comments throughout the configuration files to help users understand the setup and customize as needed.
+- **Focus on Simplicity and Best Practices**: The goal of this template is to offer best practices while keeping everything simple and easy to use.
 
-### Pratiques de base pour le SEO
+## How to Use
 
-1. **Titres et balises meta** : Assurez-vous d'utiliser des titres pertinents et des balises meta pour chaque page de votre site. Utilisez des mots-clés liés à votre contenu pour améliorer le classement dans les moteurs de recherche.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dustcloudman/docusaurus-template.git
+   cd docusaurus-template
+   ```
 
-2. **URLs lisibles** : Vos URLs doivent être claires et faciles à comprendre. Par exemple, utilisez `/blog/optimiser-seo-docusaurus` plutôt que des URLs générées automatiquement avec des identifiants.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-3. **Vitesse du site** : Optimisez les performances de votre site. Docusaurus étant un site statique, il est déjà rapide par défaut, mais vous pouvez encore l'améliorer en compressant les images et en utilisant des services comme Cloudflare pour un meilleur CDN.
+3. Run the development server:
+   ```bash
+   npm start
+   ```
 
-### Optimisation des images et du contenu
+4. To build the site for production:
+   ```bash
+   npm run build
+   ```
 
-- **Texte alternatif pour les images** : N'oubliez pas d'ajouter des descriptions alternatives (alt text) à toutes vos images. Cela permet aux moteurs de recherche de mieux comprendre le contenu visuel et aide également à l'accessibilité.
+## Learning in Progress
 
-- **Contenu de qualité** : Publiez régulièrement des articles de qualité avec des informations utiles et pertinentes pour vos utilisateurs. Plus votre contenu répond à des requêtes spécifiques, mieux il sera classé.
+I am continuously learning while developing this project. There are updates and future features that I log in blog posts as I make progress. While I don't have the technical knowledge to make some updates yet, I am committed to learning and improving over time. Feel free to check out the blog for updates on the project's progress.
 
-## Utilisation de plugins SEO avec Docusaurus
+## Contributing
 
-Docusaurus offre des plugins pour améliorer le SEO de votre site. Par exemple, vous pouvez utiliser le plugin `@docusaurus/plugin-content-blog` pour optimiser les articles de blog en ajoutant des balises meta personnalisées, des descriptions et des images pour chaque post.
+This repository is open source to help the community and receive feedback. Everyone is welcome to contribute to the code according to the project's plan, and you are also welcome to suggest new features by creating a to-do list. The focus remains on simplicity and best practices, so feel free to join in and help improve the template.
 
-### Exemple de configuration SEO dans Docusaurus
+### How to Contribute
 
-```javascript
-module.exports = {
-  title: 'Mon Site Docusaurus',
-  url: 'https://monsite.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'nom-organisation',
-  projectName: 'nom-projet',
-  themeConfig: {
-    metadata: [{ name: 'keywords', content: 'Docusaurus, SEO, Référencement naturel, Blog' }],
-    image: 'img/seo-optimisation.png',
-    navbar: {
-      title: 'Mon Site',
-      logo: {
-        alt: 'Logo SEO',
-        src: 'img/logo.svg',
-      },
-      items: [
-        { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/docs', label: 'Docs', position: 'left' },
-      ],
-    },
-  },
-};
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push your branch to GitHub:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a Pull Request.
+
+I appreciate any contributions and feedback from the community to help improve this project!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
